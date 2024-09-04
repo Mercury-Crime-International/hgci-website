@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Papyrus';
+    src: local('Papyrus'), url('PAPYRUS.TTF') format('truetype');
+}
+
+body {
+    background: black;
+    color: white;
+    background-image: url('fireL.gif'), url('fireR.gif');
+    background-repeat: repeat-y, repeat-y;
+    background-position: left top, right top;
+    background-size: auto;
+    background-size: 15vh;
+    text-align: center;
+    font-family: 'Papyrus', 'Comic Sans MS', fantasy, cursive;
+}
+
+.inline > * {
+    display: inline;
+}
